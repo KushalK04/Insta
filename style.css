@@ -1,0 +1,211 @@
+body {
+    font-family: sans-serif;
+    background-color: #fafafa;
+    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen,
+      Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+    box-sizing: border-box;
+  }
+
+.cont {
+    display: flex;
+    justify-content: center;
+    margin-left: -2%;
+}
+
+.op {
+    width: 70%;
+}
+
+.leftcol {
+    width: 36%;
+    display: flex;
+    justify-content: flex-end;
+    margin-left: -6%;
+}
+
+.rightcol {
+    width: 29%;
+}
+
+.kk {
+    padding: inherit;
+    width: 57%;
+    margin-left: 21%;
+}
+
+.connn {
+    background-color: #ffff;
+    display: flex;
+    flex-direction: column;
+}
+
+
+  
+  a {
+    text-decoration: none;
+  }
+  
+  .container {
+    max-width: 1000px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 3rem;
+    font-size: 14px;
+    min-width: 406.54px;
+  }
+  
+  .box1 {
+    max-width: 350px;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    background-color: #ffff;
+    border: 1px solid #e6e6e6;
+    border-radius: 1px;
+    margin: 0 0 10px;
+    padding: 10px 0;
+    flex-grow: 1;
+  }
+
+  .phons {
+    width: 70%;
+    margin-top: 6%;
+  }
+  
+  .foot {
+    padding: 39px 359px 0px;
+    display: flex;
+    flex-direction: column;
+    color: #8f959f;
+    font-size: 13px;
+  }
+
+  .lineone {
+    display: flex;
+    gap: 1vw;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: stretch;
+    align-content: stretch;
+    margin-top:24px;
+  }
+
+  .linetwo {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    gap: 4px;
+  }
+
+  .heading {
+    width: 58%;
+    padding: 11px 0px 16px;
+  }
+  
+  .insert {
+    margin: 10px 0;
+    position: relative;
+    font-size: 14px;
+    width: 100%;
+    text-overflow: ellipsis;
+  }
+  
+  input {
+    padding: 9px 0px 7px 9px;
+    font-size: 12px;
+    width: 16rem;
+    height: 1.2rem;
+    outline: none;
+    background: #fafafa;
+    border-radius: 3px;
+    border: 1px solid #efefef;
+  }
+  
+  label {
+    position: absolute;
+    pointer-events: none;
+    left: 10px;
+    padding-bottom: 15px;
+    transform: translateY(10px);
+    line-height: 6px;
+    transition: all ease-out 0.1s;
+    font-size: 14px;
+    color: #999;
+    padding-top: 6px;
+  }
+  
+  .login-button {
+    border-radius: 8px;
+    text-align: center;
+    width: 100%;
+    padding: 0.5rem;
+    border: 1px solid transparent;
+    background-color: #3897f0;
+    color: #fff;
+    font-weight: 600;
+    font-size: 14px;
+    cursor: pointer;
+    margin-top: 5%;
+  }
+  
+  .separator {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    color: #999;
+    margin-top: 6px;
+  }
+  
+  .separator .line {
+    height: 1px;
+    width: 40%;
+    background-color: #dbdbdb;
+  }
+  
+  .other {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+  }
+  
+  .facebk {
+    margin: 1rem;
+    border: 0;
+    cursor: pointer;
+    font-size: 14px;
+    color: #385185;
+    font-weight: 600;
+    background: transparent;
+  }
+  
+  .forgpass {
+    font-size: 11px;
+    color: #003569;
+  }
+  
+  .signup {
+    color: #3897f0;
+    font-weight: 600;
+  }
+  
+
+  @media only screen and (max-width: 1436px) {
+    .leftcol {display: none;}
+    .foot {padding: 39px 240px 0px;}
+    .rightcol {display: flex;
+        justify-content: center;}
+  }
+
+  @media only screen and (max-width: 415px) {
+    .cont {
+        margin-left: 2%;}
+    .foot {
+        display: none;
+    }
+  }
